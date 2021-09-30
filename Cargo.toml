@@ -1,9 +1,18 @@
 [package]
 name = "cc"
 version = "0.1.0"
-edition = "2018"
+edition = "2021"
 include = ["/src","src/templates","templates"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[doc]
+template= """
+<script  >
+</script>
+"""
+
 [dependencies]
+console = "0.14.1"
+dialoguer ="0.8.0"
+indicatif="0.16.2"
