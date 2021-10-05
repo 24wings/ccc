@@ -1,0 +1,95 @@
+{
+  
+  "$id": "typings.json",
+  "$comment": "Generated from src/typings.d.ts by core-types-json-schema (https://github.com/grantila/core-types-json-schema) on behalf of typeconv (https://github.com/grantila/typeconv)",
+  "definitions": {
+    "Com": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "body": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Com"
+            },
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Com"
+              }
+            }
+          ]
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "additionalProperties": false,
+      "title": "用户"
+    },
+    "User": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "username"
+      ],
+      "additionalProperties": false
+    },
+    "Form": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "form"
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "additionalProperties": false
+    },
+    "Page": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "page"
+        },
+        "body": {
+          "$ref": "#/definitions/Com"
+        }
+      },
+      "required": [
+        "type",
+        "body"
+      ],
+      "additionalProperties": false
+    },
+    "FormItem": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "form-item"
+        },
+        "body": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Com"
+          }
+        }
+      },
+      "required": [
+        "type",
+        "body"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

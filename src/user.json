@@ -1,0 +1,8 @@
+{
+    "$schema":"./user.d.json",
+    "type": "page",
+    "body": {
+        "type": "form",
+        "body":[]
+    }
+}

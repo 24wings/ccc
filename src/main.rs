@@ -1,84 +1,122 @@
-use std::thread;
-use std::time::Duration;
+#![allow(unused_imports, dead_code)]
+#![feature(path_try_exists)]
 
-use console::style;
-use console::Term;
-use console::Emoji;
-use indicatif::ProgressBar;
-use dialoguer::Confirm;
-use dialoguer::MultiSelect;
-use dialoguer::theme::ColorfulTheme;
-use dialoguer::Sort;
+extern crate env_logger;
+extern crate handlebars;
+extern crate serde;
+#[macro_use]
+extern crate serde_derive;
+extern crate serde_json;
+use openapi::Spec;
+use serde_json::Value;
+use clap::{App, Arg,SubCommand};
+
+use jsonschema_valid;
+
+mod test;
+mod hbs_test;
+mod mustache_test;
+mod plantuml;
+extern crate clap;
+
+extern crate openapi;
+
+
 
 pub mod cc {
     pub fn say_hello() {
+        
         println!("hello");
     }
 }
 
+
 fn main() {
-    let current_dir= std::env::current_dir().expect("err");
-    println!("{}",current_dir.to_str().expect(""));
+    plantuml::test_toml();
+    // let dir2=String::new();
+//   let  dir=  std::env::current_dir().expect("");
+//   let mut current_dir=String::new();
+//   match dir.to_str() {
+//     Some(str)=>{
+//         println!("{}",str);
+//         current_dir=str.to_string();
 
-    let template: &str = include_str!("../templates/index.html");
-    println!("{}", template);
+//       },
+//       None=>println!("none")
+//   }
+//   let spec:Spec;
+//    match openapi::from_path(current_dir+"/src/swagger.json"){
+//        Ok(spe)=>{
+//            spec=spe;
+           
+//         //    println!("spec:{:?}",spec)
+//         },
+//        Err(err)=>{
+//            println!("error:{}",err);
+//            panic!("error")
+//         }
+//    }
+// //    let size= spec.definitions.into_iter().size_hint().0;
 
-    let term = Term::stdout();
-    term.write_line("Hello World!")
-        .expect("error in write line");
-    thread::sleep(Duration::from_millis(2000));
-    term.clear_line().expect("error in clear line");
-    term.clear_line().expect("error in clear line");
-    term.clear_line().expect("error in clear line");
-    term.clear_screen().expect("error in clear line");
-    term.set_title("心流代码");
 
-    
-    
-
-    println!("This is {} neat", style("quite").cyan());
-    println!("[3/4] {}Downloading ...", Emoji("🚚 ", ""));
-println!("[4/4] {} Done!", Emoji("✨", ":-)"));
-    term.hide_cursor();
-    if Confirm::new().with_prompt("Do you want to continue?").interact().expect("a") {
-        println!("Looks like you want to continue");
-    } else {
-        println!("nevermind then :(");
-    }
-    let items = vec![
-        "Option 1", "Option 2","Option 3", "Option 4","Option 5", "Option 6","Option 7", "Option 8","Option 9", "Option 10",
-        "Option 11", "Option 12","Option 13", "Option 14","Option 15", "Option 16","Option 17", "Option 18","Option 19", "Option 20"
-        
-    ];
-    let items2 = vec![
-        true,false
-    ];
-
-    let items_to_order = vec!["Item 1", "Item 2", "Item 3"];
-let ordered = Sort::new()
-    .with_prompt("Order the items")
-    .items(&items_to_order)
-    .interact().expect("A");
-    
-    
-let chosen : Vec<usize> = MultiSelect::new()
-    .items(&items)
-    .paged(true)
-    .defaults(&items2)
-    // .with_theme(ColorfulTheme.default())
-    .interact().expect("a");
-    let bar = ProgressBar::new(1000);
-    for _ in 0..1000 {
-        thread::sleep(Duration::from_millis(20));
-        bar.inc(1);
-        // ...
-    }
-    bar.finish();
-    let mut input = String::new();
-    std::io::stdin()
-        .read_line(&mut input)
-        .expect("error in read");
-    
-    thread::sleep(Duration::from_millis(2000));
+//    println!("spec paths:{:?}",spec.host);
    
-}
+//    println!("spec size:{:?}",spec.definitions.keys());
+   
+   
+
+    // let schema_json = include_str!("./typings.d.json");
+    // let jsonstr = include_str!("./user.toml");
+
+    
+//     let schema: Value = serde_json::from_str(schema_json).expect("error jsonshcema");
+
+//     // println!("{}",jsonstr);
+//     let data:Value=toml::from_str(jsonstr).expect("");
+//    let schema_toml= toml::to_string(&schema).expect("");
+//    println!("{}",schema_toml);
+
+
+//    println!("{}",data);
+
+//     let page_schema = &schema["definitions"]["Page"];
+//     println!("{}", page_schema);
+//     let cfg = jsonschema_valid::Config::from_schema(
+//         &schema,
+//         Some(jsonschema_valid::schemas::Draft::Draft6),
+//     )
+//     .expect("err valid");
+//     // Validate the schema itself
+//     assert!(cfg.validate_schema().is_ok());
+//     // Validate a JSON instance against the schema
+//     assert!(cfg.validate(&data).is_ok());
+
+    // This method shows the traditional, and slightly more configurable way to set up arguments. This method is
+    // more verbose, but allows setting more configuration options, and even supports easier dynamic generation.
+    //
+    // The example below is functionally identical to the 01a_quick_example.rs and 01c_quick_example.rs
+    //
+    // *NOTE:* You can actually achieve the best of both worlds by using Arg::from() (instead of Arg::new())
+    // and *then* setting any additional properties.
+    //
+    // Create an application with 5 possible arguments (2 auto generated) and 2 subcommands (1 auto generated)
+    //    - A config file
+    //        + Uses "-c filename" or "--config filename"
+    //    - An output file
+    //        + A positional argument (i.e. "$ myapp output_filename")
+    //    - A debug flag
+    //        + Uses "-d" or "--debug"
+    //        + Allows multiple occurrences of such as "-dd" (for vary levels of debugging, as an example)
+    //    - A help flag (automatically generated by clap)
+    //        + Uses "-h" or "--help" (Only autogenerated if you do NOT specify your own "-h" or "--help")
+    //    - A version flag (automatically generated by clap)
+    //        + Uses "-V" or "--version" (Only autogenerated if you do NOT specify your own "-V" or "--version")
+    //    - A subcommand "test" (subcommands behave like their own apps, with their own arguments
+    //        + Used by "$ myapp test" with the following arguments
+    //            > A list flag
+    //                = Uses "-l" (usage is "$ myapp test -l"
+    //            > A 
+    
+        
+    
+    }

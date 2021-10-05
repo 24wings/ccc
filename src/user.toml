@@ -1,0 +1,7 @@
+type="page"
+title="页面"
+"$ref"="/definitions/User"
+
+[body]
+type="form"
+title="表单"

@@ -1,0 +1,39 @@
+@startuml
+hide empty members
+set namespaceSeparator none
+
+skinparam class {
+	BackgroundColor PaleGreen
+	ArrowColor RoyalBlue
+	BorderColor DimGray
+}
+
+{{#classDiagrams}}
+{{#is_class}}class{{/is_class}} {{^is_class}}enum{{/is_class}} {{class_name}} {{#super_class}} < ? extends {{super_class}}> {{/super_class}}{
+	 {{#fields}}	
+	 - {{#name}}{{name}}{{/name}} {{#dataType}}<b>:{{dataType}}</b>{{/dataType}} 
+	 {{/fields}}
+}
+
+{{/classDiagrams}}
+
+{{#interfaceDiagrams}}
+interface {{interfaceName}} {
+	 {{#methods}}
+	 + <i>{{methodDefinition}}</i><b>:{{returnType}}</b> {{#errorClass}} <b><color:red> throws {{errorClass}} </color> </b>{{/errorClass}}
+	 {{/methods}}
+}
+
+{{/interfaceDiagrams}}
+
+{{#entityRelations}}
+{{sourceClass}} {{#isExtension}}-->{{/isExtension}} {{#isComposition}}*--{{/isComposition}} {{#cardinality}}"{{cardinality}}"{{/cardinality}}  {{targetClass}} 
+{{/entityRelations}}
+
+note as N1
+  Name: <b><color:royalBlue>{{title}}</color>
+  Version: <b><color:royalBlue>{{version}}</color>
+end note
+
+
+@enduml

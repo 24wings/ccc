@@ -1,0 +1,16 @@
+{
+    "$schema":"http://json-schema.org/draft-07/schema",
+    "type":"object",
+    "properties": {
+        "body":{
+            "type":"array",
+            "items": {
+                "oneOf": [
+                    {
+                        "$ref": "../form-item/typing.d.json"
+                    }
+                ]
+            }
+        }
+    }
+}
