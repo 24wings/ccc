@@ -35,6 +35,4 @@ impl PlantUMLGenerator {
         generator.generate_puml();
         //    generator.
     }
-
- 
 }
