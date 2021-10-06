@@ -1,12 +1,90 @@
 @startuml
+hide empty members
+set namespaceSeparator none
 
-class dummy {
-  Sample table.
-  ==
-  #id int(10) -- A comment
-  field1 int(10)
-  .. Comment line, ignored ..
-  field2 varchar(128)
+skinparam class {
+        BackgroundColor PaleGreen
+        ArrowColor RoyalBlue
+        BorderColor DimGray
 }
 
+class  ApiResponse {
+         
+         - code  
+
+         - message  
+
+         - type  
+}
+
+class  Category {
+         
+         - id  
+
+         - name  
+}
+
+class  Order {
+         
+         - complete  
+
+         - id  
+
+         - petId  
+
+         - quantity  
+
+         - shipDate  
+
+         - status  
+}
+
+class  Pet {
+         
+         - category  
+
+         - id  
+
+         - name  
+
+         - photoUrls  
+
+         - status  
+
+         - tags  
+}
+
+class  Tag {
+         
+         - id  
+
+         - name  
+}
+
+class  User {
+         
+         - email  
+
+         - firstName  
+
+         - id  
+
+         - lastName  
+
+         - password  
+
+         - phone  
+
+         - userStatus  
+
+         - username  
+}
+
+
+
+
+note as N1
+  Name: <b><color:royalBlue>Swagger Petstore</color>
+  Version: <b><color:royalBlue>1.0.0</color>
+end note
 @enduml

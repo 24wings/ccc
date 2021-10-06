@@ -33,11 +33,11 @@ impl ClassDiagram {
 
 #[derive(Serialize,Deserialize)]
 pub struct ClassMembers {
-  data_type: String,
-  name: String,
-  class_name: String,
+pub  data_type: String,
+pub  name: String,
+pub  class_name: String,
   ///
-  cardinality: String,
+pub  cardinality: String,
 }
 
 #[derive(Serialize,Deserialize)]

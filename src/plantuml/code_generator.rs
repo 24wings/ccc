@@ -18,8 +18,16 @@ pub struct CodeGenerator {
     swagger: Spec,
     target_location: File,
 }
-enum CodeGeneratorProp {
-    String(String),
+enum PropType {
+    RefProperty,
+    ObjectPropery,
+}
+fn get_property_type(schema: &Schema) -> PropType {
+    if schema.schema_type.as_ref().unwrap() == "array" {
+        PropType::RefProperty
+    } else {
+        PropType::ObjectPropery
+    }
 }
 
 impl CodeGenerator {
@@ -76,12 +84,17 @@ impl CodeGenerator {
 
         for (key, value) in self.swagger.definitions.iter() {
             let super_class = self.get_super_class(&value);
+            let fields =self.get_class_members(value, &self.swagger.definitions);
             result.push(ClassDiagram {
                 class_name: key.to_string(),
                 is_class: self.is_model_class(value),
-                description: value.description.as_ref().unwrap_or(&String::new()).to_string(),
+                description: value
+                    .description
+                    .as_ref()
+                    .unwrap_or(&String::new())
+                    .to_string(),
                 super_class,
-                fields: vec![],
+                fields,
                 child_class: vec![],
             })
         }
@@ -91,10 +104,48 @@ impl CodeGenerator {
 
     fn get_class_members(
         &self,
-        schema: Schema,
-        models_map: BTreeMap<String, Schema>,
+        schema: &Schema,
+        models_map: &BTreeMap<String, Schema>,
     ) -> Vec<ClassMembers> {
-        let result: Vec<ClassMembers> = vec![];
+        println!("get_class_members start");
+        let mut result: Vec<ClassMembers> = vec![];
+        match get_property_type(&schema) {
+            PropType::RefProperty => {
+                println!("ref prop type");
+
+            }
+            PropType::ObjectPropery => match &schema.properties {
+                Some(prop) => {
+                    let mut members =
+                    self.convert_model_properties_to_class_members(&prop, schema, models_map);
+                    println!("parse  members");
+                    result.append(&mut members);
+                }
+                None => {
+                    println!("none prop type");
+                }
+            }
+        }
+
+        result
+    }
+    fn get_ref_class_members(&self, property: &Schema) {}
+    fn convert_model_properties_to_class_members(
+        &self,
+        modelMembers: &BTreeMap<std::string::String, Schema>,
+        model: &Schema,
+        properties: &BTreeMap<String, Schema>,
+    ) -> Vec<ClassMembers> {
+        let mut result: Vec<ClassMembers> = vec![];
+        for (key, schema) in modelMembers {
+            result.push(ClassMembers {
+                class_name: key.to_string(),
+                data_type: "".to_string(),
+                name: key.to_string(),
+                cardinality: "".to_string(),
+            });
+            println!("found class member");
+        }
 
         result
     }
@@ -131,9 +182,9 @@ impl CodeGenerator {
 
     pub fn is_model_class(&self, model: &Schema) -> bool {
         let mut is_model_class = true;
-        match  model.ref_path.as_ref(){
-            Some(_)=>(),
-            None=>return is_model_class
+        match model.ref_path.as_ref() {
+            Some(_) => (),
+            None => return is_model_class,
         }
         if model.ref_path.as_ref().unwrap() == "object" {
             match model.enum_values.as_ref() {
