@@ -1,0 +1,33 @@
+{
+    "application_content": {
+        "modules": [{
+            "controllers": [{
+                "apis": [{
+                    "description": null,
+                    "method": "get",
+                    "path": "queryList",
+                    "summary": null
+                }],
+                "base_path": "staff",
+                "tags": [
+                    "staff"
+                ]
+            }]
+        }]
+    },
+    "option": {
+        "server": {
+            "dir": "./examples/simple-config/server/modules",
+            "host": "127.0.0.1",
+            "log_level": null,
+            "port": 80
+        },
+        "swagger": {
+            "info": {
+                "termsOfService": "http://swagger.io/terms/",
+                "title": "Swagger Petstore",
+                "version": "1.0.0"
+            }
+        }
+    }
+}

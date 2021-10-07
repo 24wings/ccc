@@ -1,0 +1,21 @@
+
+
+[[controller]] # staff controller
+name="StaffController"
+base_path ="staff" #基本请求
+tags=["staff"]
+
+[[controller.apis]]
+path="queryList"
+method="get"
+name="StaffController"
+type="paging" # paging,create,update,delete,sql
+[params]
+param="StaffQueryInput"
+[body]
+ref="StaffQueryInput"
+
+
+
+
+

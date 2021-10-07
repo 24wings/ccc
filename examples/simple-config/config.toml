@@ -1,5 +1,8 @@
 [server]
-port=8080  #server default  listening on 80  
+address="0.0.0.0"
+port=80  #server default  listening on 80  
+dir="./examples/simple-config/server/modules"
+
 
 
 [database]
@@ -18,5 +21,8 @@ server="spring-boot"
 client="ng-alain"
 
 [swagger]
-header_file="./swagger/header.yml"
-other_files_include="./swagger/*.yml"
+swagger="2.0"
+[swagger.info]
+title= "Swagger Petstore"
+version= "1.0.0"
+termsOfService= "http://swagger.io/terms/"

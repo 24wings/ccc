@@ -1,0 +1,835 @@
+2021-10-07 17:17:38.073114700 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-07 17:17:38.073156400 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-07 17:17:38.073165700 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-07 17:17:38.073173800 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-07 17:17:38.073197100 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-07 17:17:38.073204300 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-07 17:17:38.073238 UTC       WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-07 17:17:38.073247800 UTC    WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-07 17:17:38.073261700 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-07 17:17:38.073266400 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-07 17:17:38.073270400 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-07 17:17:38.073276200 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-07 17:17:38.073400400 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-07 17:17:38.073454900 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 17:17:38.073482700 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-07 17:17:38.073497900 UTC    WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-07 17:17:38.075063200 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-07 17:17:38.075130 UTC       INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-07 17:17:38.075136600 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-07 17:17:38.075140500 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-07 17:17:38.075175 UTC       WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-07 17:28:33.838084400 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-07 17:28:33.838321600 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-07 17:47:01.622719500 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 17:47:01.652951200 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 0
+2021-10-07 17:47:01.658912900 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-07 17:47:01.658952500 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-07 17:47:01.658966400 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-07 17:47:01.658975 UTC       WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-07 17:47:01.659001200 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-07 17:47:01.659009300 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-07 17:47:01.659035400 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-07 17:47:01.659041400 UTC    WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-07 17:47:01.659069200 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-07 17:47:01.659079500 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-07 17:47:01.659092300 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-07 17:47:01.659100400 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-07 17:47:01.659272600 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-07 17:47:01.659315900 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 17:47:01.659357900 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-07 17:47:01.659368400 UTC    WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-07 17:47:01.659985500 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-07 17:47:01.659999 UTC       INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-07 17:47:01.660003 UTC       INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-07 17:47:01.660006200 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-07 17:47:01.660023400 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-07 17:47:23.827018700 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-07 17:47:23.827556900 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-07 17:47:30.506891200 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 17:47:30.539256500 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 0
+2021-10-07 17:47:30.542422500 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-07 17:47:30.542471400 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-07 17:47:30.542480800 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-07 17:47:30.542489300 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-07 17:47:30.542509500 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-07 17:47:30.542523200 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-07 17:47:30.542548300 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-07 17:47:30.542554700 UTC    WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-07 17:47:30.542564200 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-07 17:47:30.542568500 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-07 17:47:30.542577200 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-07 17:47:30.542585800 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-07 17:47:30.542708100 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-07 17:47:30.542748700 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 17:47:30.542777500 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-07 17:47:30.542792600 UTC    WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-07 17:47:30.543152100 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-07 17:47:30.543164300 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-07 17:47:30.543168 UTC       INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-07 17:47:30.543171100 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-07 17:47:30.543186 UTC       WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-07 17:47:53.995004600 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-07 17:47:53.995164400 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-07 17:47:55.877440600 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 17:47:55.910010700 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 17:47:55.912690600 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-07 17:47:55.912722900 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-07 17:47:55.912730100 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-07 17:47:55.912736200 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-07 17:47:55.912748800 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-07 17:47:55.912754100 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-07 17:47:55.912772600 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-07 17:47:55.912779100 UTC    WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-07 17:47:55.912786400 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-07 17:47:55.912791200 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-07 17:47:55.912797300 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-07 17:47:55.912804 UTC       WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-07 17:47:55.912927400 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-07 17:47:55.912957 UTC       WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 17:47:55.912981 UTC       WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-07 17:47:55.912991100 UTC    WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-07 17:47:55.913312900 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-07 17:47:55.913324500 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-07 17:47:55.913328 UTC       INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-07 17:47:55.913331800 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-07 17:47:55.913348 UTC       WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-07 17:48:08.287692100 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-07 17:48:08.288052900 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-07 17:48:09.929695600 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 17:48:09.961016900 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 17:48:09.964845800 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-07 17:48:09.964885800 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-07 17:48:09.964894700 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-07 17:48:09.964902800 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-07 17:48:09.964919 UTC       WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-07 17:48:09.964929800 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-07 17:48:09.964953400 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-07 17:48:09.964962 UTC       WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-07 17:48:09.964972200 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-07 17:48:09.964978200 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-07 17:48:09.964986800 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-07 17:48:09.964995300 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-07 17:48:09.965165700 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-07 17:48:09.965206800 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 17:48:09.965238600 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-07 17:48:09.965255 UTC       WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-07 17:48:09.965630400 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-07 17:48:09.965646700 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-07 17:48:09.965653500 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-07 17:48:09.965659500 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-07 17:48:09.965678700 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-07 17:51:07.839756 UTC       WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-07 17:51:07.840021800 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-07 20:52:06.880351500 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 20:52:06.911519 UTC       INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 20:52:06.918693800 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-07 20:52:06.918727600 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-07 20:52:06.918734500 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-07 20:52:06.918745100 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-07 20:52:06.918765400 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-07 20:52:06.918771700 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-07 20:52:06.918801700 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-07 20:52:06.918811600 UTC    WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-07 20:52:06.918819900 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-07 20:52:06.918824300 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-07 20:52:06.918828200 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-07 20:52:06.918839500 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-07 20:52:06.918957700 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-07 20:52:06.918982800 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 20:52:06.919002900 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-07 20:52:06.919013 UTC       WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-07 20:52:06.919330400 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-07 20:52:06.919342100 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-07 20:52:06.919345900 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-07 20:52:06.919349100 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-07 20:52:06.919369900 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-07 20:52:44.716487200 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-07 20:52:44.716914900 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-07 20:52:51.379001500 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 20:52:51.411321600 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 20:52:51.414586800 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-07 20:52:51.414621900 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-07 20:52:51.414631200 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-07 20:52:51.414637500 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-07 20:52:51.414656300 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-07 20:52:51.414661800 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-07 20:52:51.414689800 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-07 20:52:51.414699100 UTC    WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-07 20:52:51.414706300 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-07 20:52:51.414710500 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-07 20:52:51.414714300 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-07 20:52:51.414725300 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-07 20:52:51.414831200 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-07 20:52:51.414860800 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 20:52:51.414883900 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-07 20:52:51.414899900 UTC    WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-07 20:52:51.415203700 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-07 20:52:51.415215600 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-07 20:52:51.415219400 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-07 20:52:51.415222900 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-07 20:52:51.415243200 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-07 20:56:38.351023900 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-07 20:56:38.351284300 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-07 22:33:14.023257900 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 22:33:14.056154600 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 22:33:14.056954500 UTC    INFO cc::app_option - loading modules start
+2021-10-07 22:34:14.690220300 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 22:34:14.721839800 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 22:34:14.722448300 UTC    INFO cc::app_option - loading modules start
+2021-10-07 22:34:14.728940100 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server
+2021-10-07 22:34:14.729038400 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server\modules
+2021-10-07 22:35:16.834460600 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 22:35:16.872481800 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 22:35:16.873030400 UTC    INFO cc::app_option - loading modules start
+2021-10-07 22:35:16.874094900 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server
+2021-10-07 22:35:16.874201600 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server\modules
+2021-10-07 22:37:01.918609700 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 22:37:01.950195300 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 22:37:01.950555500 UTC    INFO cc::app_option - loading modules start
+2021-10-07 22:37:01.951804400 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server
+2021-10-07 22:37:01.951938400 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server\modules
+2021-10-07 22:56:36.186505800 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 22:56:36.218549600 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 22:56:36.218981 UTC       INFO cc::app_option - loading modules start
+2021-10-07 22:56:36.224472500 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server
+2021-10-07 22:56:36.224602800 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server\modules
+2021-10-07 22:56:36.227549100 UTC    ERROR rocket::config::config - Rocket configuration extraction from provider failed.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:466)
+2021-10-07 22:56:36.227577500 UTC    ERROR rocket::config::config - invalid IP address syntax  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:471)
+2021-10-07 22:56:36.227617900 UTC    INFO rocket::config::config - for key [37mglobal.address[0m
+2021-10-07 22:56:36.227635300 UTC    INFO rocket::config::config - in [37m(&str, alloc::string::String)[0m
+2021-10-07 22:59:50.034191700 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 22:59:50.066341900 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 22:59:50.066828 UTC       INFO cc::app_option - loading modules start
+2021-10-07 22:59:50.067927800 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server
+2021-10-07 22:59:50.068061600 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server\modules
+2021-10-07 22:59:50.070321600 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-07 22:59:50.070360100 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-07 22:59:50.070369400 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-07 22:59:50.070382400 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-07 22:59:50.070413100 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-07 22:59:50.070424300 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-07 22:59:50.070449900 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-07 22:59:50.070457800 UTC    WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-07 22:59:50.070467900 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-07 22:59:50.070472400 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-07 22:59:50.070476600 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-07 22:59:50.070482100 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-07 22:59:50.070611100 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-07 22:59:50.070646600 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 22:59:50.070682800 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-07 22:59:50.070697 UTC       WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-07 22:59:50.071082100 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-07 22:59:50.071095300 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-07 22:59:50.071098800 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-07 22:59:50.071102700 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-07 22:59:50.071129900 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-07 23:01:08.503388 UTC       WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-07 23:01:08.503567500 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-07 23:01:48.117757100 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:01:48.149924800 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:01:48.150393 UTC       INFO cc::app_option - loading modules start
+2021-10-07 23:01:48.151386100 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server
+2021-10-07 23:01:48.151512500 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server\modules
+2021-10-07 23:01:48.156905400 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-07 23:01:48.156934100 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-07 23:01:48.156940500 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-07 23:01:48.156948200 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-07 23:01:48.156970 UTC       WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-07 23:01:48.156976 UTC       WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-07 23:01:48.156991400 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-07 23:01:48.157001 UTC       WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-07 23:01:48.157008400 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-07 23:01:48.157013 UTC       WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-07 23:01:48.157016800 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-07 23:01:48.157022600 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-07 23:01:48.157135200 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-07 23:01:48.157159700 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 23:01:48.157184600 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-07 23:01:48.157197100 UTC    WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-07 23:01:48.157539700 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-07 23:01:48.157552200 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-07 23:01:48.157556300 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-07 23:01:48.157559800 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-07 23:01:48.157595900 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-07 23:03:30.084472500 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-07 23:03:30.084699900 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-07 23:05:24.283689600 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:05:24.315024 UTC       INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:05:24.315430800 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:05:24.316529900 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server
+2021-10-07 23:05:24.316654500 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server\modules
+2021-10-07 23:05:24.316706700 UTC    INFO cc::app_option::module - Module {
+    controllers: [],
+}
+2021-10-07 23:05:24.321854600 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-07 23:05:24.321878 UTC       WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-07 23:05:24.321891400 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-07 23:05:24.321897500 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-07 23:05:24.321915500 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-07 23:05:24.321923100 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-07 23:05:24.321944 UTC       WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-07 23:05:24.321950100 UTC    WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-07 23:05:24.321957400 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-07 23:05:24.321961600 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-07 23:05:24.321965500 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-07 23:05:24.321972800 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-07 23:05:24.322096500 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-07 23:05:24.322125600 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 23:05:24.322154700 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-07 23:05:24.322169200 UTC    WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-07 23:05:24.322667700 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-07 23:05:24.322693400 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-07 23:05:24.322700600 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-07 23:05:24.322704200 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-07 23:05:24.322742600 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-07 23:05:59.406476600 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-07 23:05:59.406614300 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-07 23:23:32.099790900 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:23:32.130496900 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:23:32.131373100 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:23:32.132680300 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server
+2021-10-07 23:23:32.132873600 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server\modules
+2021-10-07 23:23:32.133059200 UTC    INFO cc::app_option::module - Module {
+    controllers: [],
+}
+2021-10-07 23:23:32.138579900 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-07 23:23:32.138841400 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-07 23:23:32.138881400 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-07 23:23:32.138946700 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-07 23:23:32.138975400 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-07 23:23:32.139106400 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-07 23:23:32.139330900 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-07 23:23:32.139341 UTC       WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-07 23:23:32.139356900 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-07 23:23:32.139362 UTC       WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-07 23:23:32.139366400 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-07 23:23:32.139372300 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-07 23:23:32.139654400 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-07 23:23:32.139684200 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 23:23:32.139731700 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-07 23:23:32.139744600 UTC    WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-07 23:23:32.140527300 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-07 23:23:32.140541500 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-07 23:23:32.140548400 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-07 23:23:32.140552100 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-07 23:23:32.140596800 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-07 23:25:24.170896500 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-07 23:25:24.171012700 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-07 23:25:30.503030100 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:25:30.535331300 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:25:30.535772700 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:25:30.536878100 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server
+2021-10-07 23:25:30.537010400 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server\modules
+2021-10-07 23:27:45.987622600 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:27:46.019861700 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:27:46.020294400 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:27:46.021624300 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server
+2021-10-07 23:27:46.021790 UTC       INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server\\modules"
+2021-10-07 23:27:46.021866 UTC       INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server\modules
+2021-10-07 23:31:44.224967300 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:31:44.257177400 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:31:44.257622300 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:31:44.258861500 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server
+2021-10-07 23:31:44.258976600 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server\\modules"
+2021-10-07 23:31:44.259026400 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server\modules
+2021-10-07 23:32:27.844567700 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:32:27.876866 UTC       INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:32:27.877408900 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:32:27.883123300 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-07 23:32:27.883244800 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-07 23:32:27.883293100 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-07 23:32:27.883352600 UTC    INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-07 23:35:58.533017700 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:35:58.564201500 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:35:58.564506700 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:35:58.565832100 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-07 23:35:58.565950900 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-07 23:35:58.566014 UTC       INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-07 23:35:58.566087500 UTC    INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-07 23:37:42.468439800 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:37:42.500744500 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:37:42.501242700 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:37:42.502464100 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-07 23:37:42.502583600 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-07 23:37:42.502638500 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-07 23:37:42.502693900 UTC    INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-07 23:38:44.854180800 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:38:44.885146900 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:38:44.885579300 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:38:44.887086200 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-07 23:38:44.887195600 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-07 23:38:44.887237300 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-07 23:38:44.887304 UTC       INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-07 23:39:04.003552600 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:39:04.034880500 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:39:04.035296700 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:39:04.036764500 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-07 23:39:04.036869800 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-07 23:39:04.036914700 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-07 23:39:04.036974500 UTC    INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-07 23:39:38.508471800 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:39:38.538824700 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:39:38.539310300 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:39:38.540446100 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-07 23:39:38.540557700 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-07 23:39:38.540602100 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-07 23:39:38.540651100 UTC    INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-07 23:39:56.109617900 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:39:56.140843200 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:39:56.141217600 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:39:56.142964500 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-07 23:39:56.143106800 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-07 23:39:56.143168 UTC       INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-07 23:39:56.143255300 UTC    INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-07 23:40:20.898758500 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:40:20.930637900 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:40:20.931218 UTC       INFO cc::app_option - loading modules start
+2021-10-07 23:40:20.932780300 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-07 23:40:20.932922600 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-07 23:40:20.932980800 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-07 23:40:20.933072500 UTC    INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-07 23:40:33.540447 UTC       INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:40:33.571367900 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:40:33.572047300 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:40:33.573144600 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-07 23:40:33.573245900 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-07 23:40:33.573290600 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-07 23:40:33.573352 UTC       INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-07 23:40:49.035404600 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:40:49.067117200 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:40:49.067596600 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:40:49.068813200 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-07 23:40:49.068926800 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-07 23:40:49.068974300 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-07 23:40:49.069074800 UTC    INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-07 23:40:49.074544300 UTC    INFO cc::app_option::module - module :Module {
+    controllers: [
+        Controller {
+            base_path: "api/staff",
+            tags: [
+                "staff",
+            ],
+            apis: [
+                Api {
+                    path: "queryList",
+                    method: "get",
+                    summary: None,
+                    description: None,
+                },
+            ],
+        },
+    ],
+}
+2021-10-07 23:40:49.079944200 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-07 23:40:49.079984900 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-07 23:40:49.079996800 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-07 23:40:49.080005200 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-07 23:40:49.080025600 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-07 23:40:49.080032800 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-07 23:40:49.080062400 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-07 23:40:49.080071700 UTC    WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-07 23:40:49.080081700 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-07 23:40:49.080086100 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-07 23:40:49.080089900 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-07 23:40:49.080095500 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-07 23:40:49.080211400 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-07 23:40:49.080241100 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 23:40:49.080262700 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-07 23:40:49.080274200 UTC    WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-07 23:40:49.080702100 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-07 23:40:49.080718100 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-07 23:40:49.080721900 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-07 23:40:49.080725100 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-07 23:40:49.080748300 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-07 23:41:01.375189200 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-07 23:41:01.375393800 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-07 23:55:55.227576300 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:55:55.259850400 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:55:55.260357 UTC       INFO cc::app_option - loading modules start
+2021-10-07 23:55:55.261529400 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-07 23:55:55.261647700 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-07 23:55:55.261690200 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-07 23:55:55.261753900 UTC    INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-07 23:55:55.262264100 UTC    INFO cc::app_option::module - module :Module {
+    controllers: [
+        Controller {
+            base_path: "api/staff",
+            tags: [
+                "staff",
+            ],
+            apis: [
+                Api {
+                    path: "queryList",
+                    method: "get",
+                    summary: None,
+                    description: None,
+                },
+            ],
+        },
+    ],
+}
+2021-10-07 23:55:55.269121800 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-07 23:55:55.269166600 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-07 23:55:55.269178300 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-07 23:55:55.269187100 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-07 23:55:55.269209100 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-07 23:55:55.269216900 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-07 23:55:55.269251400 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-07 23:55:55.269261500 UTC    WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-07 23:55:55.269272200 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-07 23:55:55.269276900 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-07 23:55:55.269281 UTC       WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-07 23:55:55.269286600 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-07 23:55:55.269402100 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-07 23:55:55.269474900 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 23:55:55.269483500 UTC    WARN rocket::rocket - [36m([0m[37mdynamic_controller[0m[36m)[0m [32mGET[0m [34m/api/modules/<module>/<controller>/<path>[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 23:55:55.269518100 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-07 23:55:55.269528900 UTC    WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-07 23:55:55.269936500 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-07 23:55:55.269963400 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-07 23:55:55.269967800 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-07 23:55:55.269971400 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-07 23:55:55.269995300 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-07 23:56:10.529129100 UTC    INFO rocket::server - [32mGET[0m [34m/api/modules/aaa/bbb/ccc[0m [33mtext[0m[33m/[0m[33mhtml[0m:
+2021-10-07 23:56:10.529270 UTC       INFO rocket::server - Matched: [36m([0m[37mdynamic_controller[0m[36m)[0m [32mGET[0m [34m/api/modules/<module>/<controller>/<path>[0m
+2021-10-07 23:56:10.529384400 UTC    INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2021-10-07 23:56:10.529744200 UTC    INFO rocket::server - [32mResponse succeeded.[0m
+2021-10-07 23:56:10.581166900 UTC    INFO rocket::server - [32mGET[0m [34m/favicon.ico[0m [33mimage[0m[33m/[0m[33mavif[0m:
+2021-10-07 23:56:10.581226700 UTC    ERROR rocket::server - No matching routes for [32mGET[0m [34m/favicon.ico[0m [33mimage[0m[33m/[0m[33mavif[0m.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:293)
+2021-10-07 23:56:10.581238500 UTC    WARN rocket::server - No [1;34m404[0m catcher registered. Using Rocket default.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:325)
+2021-10-07 23:56:10.581373200 UTC    INFO rocket::server - [32mResponse succeeded.[0m
+2021-10-07 23:59:14.963452900 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-07 23:59:14.963578600 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-07 23:59:24.066272400 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-07 23:59:24.098736400 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-07 23:59:24.099235100 UTC    INFO cc::app_option - loading modules start
+2021-10-07 23:59:24.100551300 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-07 23:59:24.100675900 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-07 23:59:24.100718600 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-07 23:59:24.100767200 UTC    INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-07 23:59:24.101265500 UTC    INFO cc::app_option::module - module :Module {
+    controllers: [
+        Controller {
+            base_path: "api/staff",
+            tags: [
+                "staff",
+            ],
+            apis: [
+                Api {
+                    path: "queryList",
+                    method: "get",
+                    summary: None,
+                    description: None,
+                },
+            ],
+        },
+    ],
+}
+2021-10-07 23:59:24.107743100 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-07 23:59:24.107786300 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-07 23:59:24.107796300 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-07 23:59:24.107804600 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-07 23:59:24.107826600 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-07 23:59:24.107834600 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-07 23:59:24.107867 UTC       WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-07 23:59:24.107876500 UTC    WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-07 23:59:24.107894700 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-07 23:59:24.107907200 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-07 23:59:24.107914700 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-07 23:59:24.107940900 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-07 23:59:24.108076500 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-07 23:59:24.108212600 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 23:59:24.108228200 UTC    WARN rocket::rocket - [36m([0m[37mdynamic_controller[0m[36m)[0m [32mGET[0m [34m/api/modules/<module>/<controller>/<path>[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-07 23:59:24.108278 UTC       WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-07 23:59:24.108519900 UTC    WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-07 23:59:24.109575100 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-07 23:59:24.109592 UTC       INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-07 23:59:24.109596500 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-07 23:59:24.109600300 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-07 23:59:24.109638500 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-07 23:59:52.789247500 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-07 23:59:52.789640 UTC       INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-08 00:02:45.054638900 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-08 00:02:45.086880600 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-08 00:02:45.088268100 UTC    INFO cc::app_option - loading modules start
+2021-10-08 00:02:45.089179800 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-08 00:02:45.089281300 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-08 00:02:45.089326400 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-08 00:02:45.089383900 UTC    INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-08 00:02:45.089957 UTC       INFO cc::app_option::module - module :Module {
+    controllers: [
+        Controller {
+            base_path: "api/staff",
+            tags: [
+                "staff",
+            ],
+            apis: [
+                Api {
+                    path: "queryList",
+                    method: "get",
+                    summary: None,
+                    description: None,
+                },
+            ],
+        },
+    ],
+}
+2021-10-08 00:02:45.096292300 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-08 00:02:45.096337600 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-08 00:02:45.096347800 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-08 00:02:45.096357100 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-08 00:02:45.096409900 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-08 00:02:45.096425400 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-08 00:02:45.096457900 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-08 00:02:45.096464 UTC       WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-08 00:02:45.096500100 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-08 00:02:45.096525800 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-08 00:02:45.096533800 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-08 00:02:45.096641500 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-08 00:02:45.096879200 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-08 00:02:45.097009900 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-08 00:02:45.097045600 UTC    WARN rocket::rocket - [36m([0m[37mdynamic_controller[0m[36m)[0m [32mGET[0m [34m/api/modules/<module>/<controller>/<path>[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-08 00:02:45.097110500 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-08 00:02:45.097124 UTC       WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-08 00:02:45.098020700 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-08 00:02:45.098035900 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-08 00:02:45.098039700 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-08 00:02:45.098043600 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-08 00:02:45.098082800 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-08 00:02:50.078156800 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-08 00:02:50.078281500 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-08 00:06:45.284926600 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-08 00:06:45.316313700 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-08 00:06:45.318145900 UTC    INFO cc::app_option - loading modules start
+2021-10-08 00:06:45.319164600 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-08 00:06:45.319264300 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-08 00:06:45.319323100 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-08 00:06:45.319390200 UTC    INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-08 00:06:45.319994600 UTC    INFO cc::app_option::module - module :Module {
+    controllers: [
+        Controller {
+            base_path: "api/staff",
+            tags: [
+                "staff",
+            ],
+            apis: [
+                Api {
+                    path: "queryList",
+                    method: "get",
+                    summary: None,
+                    description: None,
+                },
+            ],
+        },
+    ],
+}
+2021-10-08 00:06:45.320075800 UTC    INFO cc::app_option - [Module { controllers: [Controller { base_path: "api/staff", tags: ["staff"], apis: [Api { path: "queryList", method: "get", summary: None, description: None }] }] }]
+2021-10-08 00:06:45.327403900 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-08 00:06:45.327439400 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-08 00:06:45.327452500 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-08 00:06:45.327462300 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-08 00:06:45.327487400 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-08 00:06:45.327494600 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-08 00:06:45.327527600 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-08 00:06:45.327536800 UTC    WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-08 00:06:45.327547600 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-08 00:06:45.327551800 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-08 00:06:45.327555900 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-08 00:06:45.327569300 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-08 00:06:45.327684300 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-08 00:06:45.327755800 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-08 00:06:45.327770 UTC       WARN rocket::rocket - [36m([0m[37mdynamic_controller[0m[36m)[0m [32mGET[0m [34m/api/modules/<module>/<controller>/<path>[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-08 00:06:45.327797900 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-08 00:06:45.327808 UTC       WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-08 00:06:45.328211900 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-08 00:06:45.328223900 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-08 00:06:45.328227600 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-08 00:06:45.328230800 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-08 00:06:45.328251600 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-08 00:15:07.702694600 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-08 00:15:07.702907600 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-08 00:15:13.935009 UTC       INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-08 00:15:13.966406100 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-08 00:15:13.967815600 UTC    INFO cc::app_option - loading modules start
+2021-10-08 00:15:13.968852700 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-08 00:15:13.968951800 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-08 00:15:13.968992700 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-08 00:15:13.969065400 UTC    INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-08 00:15:13.970071600 UTC    INFO cc::app_option::module - module :Module {
+    controllers: [
+        Controller {
+            base_path: "api/staff",
+            tags: [
+                "staff",
+            ],
+            apis: [
+                Api {
+                    path: "queryList",
+                    method: "get",
+                    summary: None,
+                    description: None,
+                },
+            ],
+        },
+    ],
+}
+2021-10-08 00:15:13.970151600 UTC    INFO cc::app_option - [Module { controllers: [Controller { base_path: "api/staff", tags: ["staff"], apis: [Api { path: "queryList", method: "get", summary: None, description: None }] }] }]
+2021-10-08 00:15:13.976583600 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-08 00:15:13.976620700 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-08 00:15:13.976633800 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-08 00:15:13.976642500 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-08 00:15:13.976665900 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-08 00:15:13.976673600 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-08 00:15:13.976704400 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-08 00:15:13.976711 UTC       WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-08 00:15:13.976745 UTC       WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-08 00:15:13.976769400 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-08 00:15:13.976776900 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-08 00:15:13.976791900 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-08 00:15:13.977065700 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-08 00:15:13.977370700 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-08 00:15:13.977415 UTC       WARN rocket::rocket - [36m([0m[37mdynamic_controller[0m[36m)[0m [32mGET[0m [34m/api/modules/<module>/<controller>/<path>[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-08 00:15:13.977455800 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-08 00:15:13.977468300 UTC    WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-08 00:15:13.979151500 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-08 00:15:13.979172500 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-08 00:15:13.979176 UTC       INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-08 00:15:13.979179700 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-08 00:15:13.979221500 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-08 00:17:29.261184500 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-08 00:17:29.261325100 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-08 00:17:35.533067900 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-08 00:17:35.564594800 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-08 00:17:35.566083800 UTC    INFO cc::app_option - loading modules start
+2021-10-08 00:17:35.567104200 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-08 00:17:35.567207500 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-08 00:17:35.567258500 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-08 00:17:35.567342600 UTC    INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-08 00:17:35.568185500 UTC    INFO cc::app_option::module - module :Module {
+    controllers: [
+        Controller {
+            base_path: "api/staff",
+            tags: [
+                "staff",
+            ],
+            apis: [
+                Api {
+                    path: "queryList",
+                    method: "get",
+                    summary: None,
+                    description: None,
+                },
+            ],
+        },
+    ],
+}
+2021-10-08 00:17:35.568276900 UTC    INFO cc::app_option - [Module { controllers: [Controller { base_path: "api/staff", tags: ["staff"], apis: [Api { path: "queryList", method: "get", summary: None, description: None }] }] }]
+2021-10-08 00:17:35.575513700 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-08 00:17:35.575633100 UTC    WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-08 00:17:35.575661900 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-08 00:17:35.575671100 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-08 00:17:35.575696100 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-08 00:17:35.575702 UTC       WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-08 00:17:35.575733300 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-08 00:17:35.576003200 UTC    WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-08 00:17:35.576036800 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-08 00:17:35.576042600 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-08 00:17:35.576047600 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-08 00:17:35.576063300 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-08 00:17:35.577292 UTC       WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-08 00:17:35.577766300 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-08 00:17:35.577784800 UTC    WARN rocket::rocket - [36m([0m[37mdynamic_controller[0m[36m)[0m [32mGET[0m [34m/api/modules/<module>/<controller>/<path>[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-08 00:17:35.577825900 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-08 00:17:35.577838400 UTC    WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-08 00:17:35.578262400 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-08 00:17:35.578269200 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-08 00:17:35.578272900 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-08 00:17:35.578275900 UTC    INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-08 00:17:35.578298700 UTC    WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-08 00:21:46.130798100 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-08 00:21:46.131000600 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
+2021-10-08 01:49:08.706997400 UTC    INFO rbatis::plugin::log - [rbatis] [] Fetch  ==> select * from staff where id = ?
+                                                                [rbatis] [] Args   ==> [1]
+2021-10-08 01:49:08.737273200 UTC    INFO rbatis::plugin::log - [rbatis] [] ReturnRows <== 1
+2021-10-08 01:49:08.737730200 UTC    INFO cc::app_option - loading modules start
+2021-10-08 01:49:08.738893900 UTC    INFO cc::app_option::module - found root module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules
+2021-10-08 01:49:08.739012100 UTC    INFO cc::app_option::module - module  dir:"C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff"
+2021-10-08 01:49:08.739058600 UTC    INFO cc::app_option::module - found module  dirC:\Users\21217\Documents\code\rust\ccc\./examples/simple-config/server/modules\staff
+2021-10-08 01:49:08.739118 UTC       INFO cc::app_option::module - found controller file: "C:\\Users\\21217\\Documents\\code\\rust\\ccc\\./examples/simple-config/server/modules\\staff\\controllers.toml"
+2021-10-08 01:49:08.744864500 UTC    INFO cc::app_option::module - module :Module {
+    controllers: [
+        Controller {
+            base_path: "staff",
+            tags: [
+                "staff",
+            ],
+            apis: [
+                Api {
+                    path: "queryList",
+                    method: "get",
+                    summary: None,
+                    description: None,
+                },
+            ],
+        },
+    ],
+}
+2021-10-08 01:49:08.751397400 UTC    WARN rocket::config::config - Configured for debug.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:309)
+2021-10-08 01:49:08.751434 UTC       WARN rocket::config::config - address: [1;49;39m127.0.0.1[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:311)
+2021-10-08 01:49:08.751441300 UTC    WARN rocket::config::config - port: [1;49;39m80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:312)
+2021-10-08 01:49:08.751450700 UTC    WARN rocket::config::config - workers: [1;49;39m6[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:313)
+2021-10-08 01:49:08.751473100 UTC    WARN rocket::config::config - ident: [1;49;39mRocket[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:314)
+2021-10-08 01:49:08.751481600 UTC    WARN rocket::config::config - keep-alive: [1;49;39m5s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:318)
+2021-10-08 01:49:08.751513900 UTC    WARN rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:323)
+2021-10-08 01:49:08.751523700 UTC    WARN rocket::config::config - tls: [1;49;39mdisabled[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:326)
+2021-10-08 01:49:08.751531300 UTC    WARN rocket::config::config - temp dir: [1;49;39mC:\Users\21217\AppData\Local\Temp\[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:338)
+2021-10-08 01:49:08.751535900 UTC    WARN rocket::config::config - log level: [1;49;39mnormal[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:339)
+2021-10-08 01:49:08.751540200 UTC    WARN rocket::config::config - cli colors: [1;49;39mtrue[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:340)
+2021-10-08 01:49:08.751552400 UTC    WARN rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, grace = 2s, mercy = 3s[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\config\config.rs:341)
+2021-10-08 01:49:08.751676100 UTC    WARN rocket::rocket - [35mRoutes[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:534)
+2021-10-08 01:49:08.751806100 UTC    WARN rocket::rocket - [36m([0m[37mindex[0m[36m)[0m [32mGET[0m [34m/[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-08 01:49:08.751821200 UTC    WARN rocket::rocket - [36m([0m[37mdynamic_controller[0m[36m)[0m [32mGET[0m [34m/api/modules/<module>/<controller>/<path>[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:541)
+2021-10-08 01:49:08.751851900 UTC    WARN rocket::fairing::fairings - [35mFairings[0m:  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:166)
+2021-10-08 01:49:08.751863 UTC       WARN rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\fairing\fairings.rs:169)
+2021-10-08 01:49:08.752300300 UTC    INFO rocket::shield::shield - [35mShield[0m:
+2021-10-08 01:49:08.752314 UTC       INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2021-10-08 01:49:08.752318200 UTC    INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2021-10-08 01:49:08.752321900 UTC    INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2021-10-08 01:49:08.752346 UTC       WARN rocket::rocket - [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://127.0.0.1:80[0m  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\rocket.rs:624)
+2021-10-08 01:49:59.248895900 UTC    WARN rocket::server - Received SIGINT. Requesting shutdown.  (C:\Users\21217\.cargo\registry\src\github.com-1ecc6299db9ec823\rocket-0.5.0-rc.1\src\server.rs:440)
+2021-10-08 01:49:59.249054100 UTC    INFO rocket::server - Received shutdown request. Waiting for pending I/O...
