@@ -1,6 +1,7 @@
 use crate::dynamic::*;
 use rbatis::rbatis::Rbatis;
 use rbatis::sql;
+mod module_table;
 //use rbatis::crud::CRUD;
 lazy_static! {
     static ref RB: Rbatis = Rbatis::new();

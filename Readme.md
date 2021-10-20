@@ -9,3 +9,10 @@ rustline
 例如前端中,代码是分页面级组件,视图组件,低级组件,
 
 元数据的jsonschema
+
+
+
+
+```cmd
+docker run -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=704104 -d mysql:5.7
+``
